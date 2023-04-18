@@ -20,6 +20,7 @@ spec:
             - start
             - poi-map-app-pipeline
             - -w name=poi-map-pvc,claimName=poi-map-pvc
+            - '--use-param-defaults'
           env:
             - name: HOME
               value: /tekton/home
